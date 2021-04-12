@@ -1,0 +1,12 @@
+input[type="file"] {
+    display: none;
+}
+.custom-upload-css {
+border:none;
+    cursor: pointer;
+}
+
+
+.body {
+    background-color: #F4F6F9;
+  }
