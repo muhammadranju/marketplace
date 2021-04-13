@@ -888,7 +888,7 @@ if (session_status() == PHP_SESSION_NONE) {
       <div class="toast-body">This item has been added to your cart.</div>
     </div>
   </div>
-<a href="https://pokslide.com/page/login" class="btn btn rounded-pill" style="z-index:100; position: fixed; bottom:1px; left:1px;"><img width="50px"  src="img/pikslide-logo-2.png" alt="Cartzilla" /></a>
+<!-- <a href="https://pokslide.com/page/login" class="btn btn rounded-pill" style="z-index:100; position: fixed; bottom:1px; left:1px;"><img width="50px"  src="img/pikslide-logo-2.png" alt="Cartzilla" /></a> -->
 
   <?php include('main-page/footer-page.php'); ?>
   <!-- Toolbar for handheld devices-->
