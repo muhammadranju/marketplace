@@ -10,18 +10,19 @@ if (session_status() == PHP_SESSION_NONE) {
 
 <header class="bg-light  navbar-sticky col-lg-12 " id="haderId">
   <div class="navbar navbar-expand-lg navbar-light navbar-sticky haderId">
-    <div class="container "><a class="  d-sm-block  order-lg-1 " href="/" ><img width="130px"  src="img/pikslide-logo-2.png" alt="Cartzilla" /></a>
+    <div class="container "><a class="  d-sm-block  order-lg-1 " href="/" ><img width="130px"  src="img/pikslide-logo-2.png" alt="Pikslide" /></a>
 
       <!-- Toolbar-->
       <div class="navbar-toolbar d-flex align-items-center order-lg-1 ">
 
         <!-- <a class="navbar-tool d-none d-lg-flex" href="#searchBox" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="searchBox"> -->
         </a>
+
+
+
         <?php if (isset($_SESSION['user_id'])) { ?>
-          <!-- <a class="navbar-tool d-none d-lg-flex" href="dashboard-favorites"><span class="navbar-tool-tooltip">Favorites</span>
-            <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-heart"></i></div>
-          </a> -->
-          <div class="navbar-tool dropdown ml-2"><a class="navbar-tool-icon-box border dropdown-toggle" href="dashboard-sales"><img width="50" class=" rounded-circle" src="img/marketplace/account/avatar-sm.png" alt="Createx Studio" /></a><a class="navbar-tool-text ml-n1 text-accent" href="dashboard-sales"><small><?php echo  $_SESSION['username']; ?></small>$137</a>
+
+          <div class="navbar-tool  ml-2"><a class="navbar-tool-icon-box border dropdown-toggle" href="dashboard-sales"><img width="50" class=" rounded-circle" src="img/marketplace/account/avatar-sm.png" alt="Pikslide" /></a><span class="navbar-tool-text ml-n1 text-accent" href="dashboard-sales"><small><?php echo  $_SESSION['username']; ?></small>$137</span>
             <div class="dropdown-menu dropdown-menu-right" style="min-width: 14rem;">
               <h6 class="dropdown-header">Account</h6><a class="dropdown-item d-flex align-items-center" href="dashboard-settings"><i class="czi-settings opacity-60 mr-2"></i>Settings</a><a class="dropdown-item d-flex align-items-center" href="dashboard-purchases"><i class="czi-basket opacity-60 mr-2"></i>Purchases</a><a class="dropdown-item d-flex align-items-center" href="dashboard-favorites"><i class="czi-heart opacity-60 mr-2"></i>Favorites<span class="font-size-xs text-muted ml-auto">4</span></a>
               <div class="dropdown-divider"></div>
@@ -29,6 +30,9 @@ if (session_status() == PHP_SESSION_NONE) {
               <div class="dropdown-divider"></div><a class="dropdown-item d-flex align-items-center" href="pages-logout"><i class="czi-sign-out opacity-60 mr-2"></i>Sign Out</a>
             </div>
           </div>
+            <a class="navbar-tool d-none d-lg-flex" href="dashboard-favorites"><span class="navbar-tool-tooltip">Favorites</span>
+            <div class="navbar-tool-icon-box"><i class="navbar-tool-icon czi-heart"></i></div>
+          </a>
         <?php }; ?>
 
 

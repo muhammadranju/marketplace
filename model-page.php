@@ -46,7 +46,7 @@ if (isset($_POST['login'])) {
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <img width="142" src="img/logo-dark.png" alt="Cartzilla" />
+          <img width="142" src="img/pikslide-logo-2.png" alt="Pikslide" />
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>

@@ -50,9 +50,9 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="row mb-3 mb-sm-1">
           <div class="col-lg-12 col-md-12 text-center ">
             <h1 class="text-dark line-height-base"><span class='font-weight-bold'> &#127752;The &#128293;#1 place for design resources</span></h1>
-            <h2 class="h4 text-dark font-normal ">Pikslide is the place to find high-quality design resources for designers, creative agencies and developers </h2>
+           <h2 class="h4 text-dark font-normal mt-3">Pikslide is the place to find high-quality design resources for designers, creative agencies and developers </h2>
             <h2 class="h5 text-dark font-weight-bold">High quality items created by our global community</h2>
-            <a href="pages-register" class="btn  text-dark bg-light font-size-lg  btn-size-12  mt-4 mb-2">GET START</a>
+            <a href="pages-register" class="btn  text-dark bg-light font-size-lg  btn-size-12  mt-2">GET START</a>
           </div>
         </div>
       </div>

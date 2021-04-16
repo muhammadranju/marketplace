@@ -39,7 +39,7 @@ if(session_status()==PHP_SESSION_NONE){
     <div class="modal-dialog modal-lg " role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <img width="142" src="img/ranju.png" alt="Cartzilla" />
+          <img width="130px"  src="img/pikslide-logo-2.png" alt="Pikslide"/>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -108,7 +108,8 @@ if(session_status()==PHP_SESSION_NONE){
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Add a payment method</h5>
+          <img width="130px"  src="img/pikslide-logo-2.png" alt="Pikslide">
+          <h5 class="modal-title ml-2">Add a payment method</h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         </div>
         <div class="modal-body">
